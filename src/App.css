@@ -1,0 +1,130 @@
+.header-icon-top{
+    top:1.5em !important;
+}
+.header-icon{
+    font-size: 1.5em;
+    color: #51626c;
+}
+.avatar{
+ background-image: url('../assets/avatar.png');
+ background-size: 56px auto;
+ background-repeat: no-repeat;
+ height: 4em;
+ width: 4em;
+ margin: 0.5em 1em;
+ border-radius: 50%;
+}
+.avatar-2{
+    background-image: url('../assets/avatar.png');
+    background-repeat: no-repeat;
+    background-size: 42px auto;
+    height: 3em;
+    width: 3em;
+    margin: 0.5em 1em 0.5em 0.4em;
+    border-radius: 50%;
+}
+.ml-2{
+    margin-left: 2em;
+}
+.ant-row.main-header{
+    background: #f0f2f5 !important;
+    height: 9vh;
+}
+.search-outer{
+    padding: 0.5em;
+}
+.search-box{
+    background: #f0f2f5;
+    border: none;
+}
+.search-box input.ant-input{
+    background: #f0f2f5;
+}
+.linebreak{
+    border: 0;
+    border-top: 0.5px solid #f0f2f5;
+}
+.right-border{
+    border: 0;
+    border-right:1px solid #dbdde1;
+    height: 100vh;
+}
+.chat-name{
+    font-size: 1.5em;
+    margin: 0.4em 0em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.chat-msg{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.chat-date{
+    font-size: 14px;
+}
+.received-msg{
+    color: #0099ff;
+}
+.ml-1{
+    margin-left: 0.1em;
+}
+.web-bg{
+    background-image: url('../assets/whatsapp.webp');
+}
+.send-msg{
+    margin: 0.7em 1em;
+}
+.receive-cell{
+    background: #d1f4cc;
+    padding: 0.5em;
+    display: inline-block;
+    border-radius:5px;
+}
+.send-cell{
+    background: white;
+    padding: 0.5em;
+    display: inline-block;
+    border-radius:5px;
+}
+.time{
+    font-size: 11px;
+    text-align: right;
+    margin-top: 2px;
+    direction: ltr;
+}
+.direct-rtl{
+    direction: rtl;
+}
+.new-msg{
+    position: absolute;
+    bottom: 0;
+}
+.new-msg-box{
+    width: 79em;
+}
+.selectedchat{
+    background: #f0f2f5;
+    margin: 10px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.notification{
+    height: 1.5em;
+    background: #50bf50;
+    width: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    margin: 1em 1em 1em 3em;
+    color: #fff;
+}
+.dot{
+    height: 11px;
+    width: 11px;
+    background-color: #50bf50;
+    border-radius: 50%;
+    display: inline-block;
+}
